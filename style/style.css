@@ -1,0 +1,98 @@
+/*  COLOR SYSTEM
+–––––––––––––––––––––––––––––––––––––– */
+:root{
+  --brand-green: #b6c76b;   /* nav, footer */
+  --cta-green:   #2c6e48;   /* primary buttons */
+  --cta-blue:    #8bb7e9;   /* blue CTA banner */
+  --hero-grad-l: #b6c76b;   /* hero gradient left  (same as navbar)   */
+  --hero-grad-r: #8bb7e9;   /* hero gradient right                    */
+}
+
+/*  GLOBAL ELEMENTS
+–––––––––––––––––––––––––––––––––––––– */
+.brand-nav{
+  background: var(--brand-green);
+}
+.brand-footer{
+  background: var(--brand-green);
+}
+.btn-cta{
+  background: var(--cta-green);
+  color:#fff !important;
+  border:none;
+}
+.btn-cta:hover{
+  opacity: .9;
+  color:#fff !important;
+}
+
+/* blue hero strip on the About page */
+.hero-team{
+  background: var(--cta-blue);
+}
+
+
+/*  FEATURE CARDS
+–––––––––––––––––––––––––––––––––––––– */
+.feature-card{
+  border: 1px solid var(--cta-green);
+}
+.feature-card i{
+  color: var(--cta-green);
+}
+
+/*  HERO WITH CHECKER PATTERN
+–––––––––––––––––––––––––––––––––––––– */
+.hero-pattern{
+  background: url("../images/contactImage.jpg") center/cover no-repeat;
+}
+/*  BLUE CTA BANNER
+–––––––––––––––––––––––––––––––––––––– */
+.cta-banner{
+  background: var(--cta-blue);
+  color:#fff;
+}
+
+/* blue translucent card in the centre of the Contact page */
+.signup-card{
+  background: rgba(139, 183, 233, 0.85);  /* uses --cta-blue, 85 % opacity */
+  border-radius: .5rem;
+  max-width: 540px;
+  width: 100%;
+}
+
+
+
+ /* hero gradient */
+    .hero-bg{
+      background: linear-gradient(90deg,
+       var(--hero-grad-l) 0%,
+       var(--hero-grad-r) 100%);
+    }
+
+    /* generic button override so both CTAs match */
+    .btn-cta{
+      background: var(--cta-green);
+      color:#fff;
+      border:none;
+    }
+    .btn-cta:hover{
+      opacity:.9;
+      color:#fff;
+    }
+
+    /* subtle card outline to match the mock-up */
+    .feature-card{
+      border:1px solid var(--cta-green);
+      height:100%;
+    }
+
+/*  FOOTER LINKS
+–––––––––––––––––––––––––––––––––––––– */
+footer a{
+  color:#000;
+  text-decoration:none;
+}
+footer a:hover{
+  text-decoration:underline;
+}

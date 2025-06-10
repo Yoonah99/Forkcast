@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Features | Food-Waste App</title>
+
+  <!--  Bootstrap 5  -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <!--  Bootstrap Icons (for feature cards)  -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    rel="stylesheet"
+  >
+  <!--  Custom styles  -->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<!-- ░░░ NAV  ░░░ -->
+<nav class="navbar navbar-expand-lg brand-nav">
+  <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"><img src="images/logo.png" alt="logo" width="50" height="50"> Forkcast</a>
+
+    <button
+      class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto gap-lg-4 text-center mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item">
+          <a class="btn btn-cta ms-lg-4" href="#">Download App</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ░░░ HERO  ░░░ -->
+<header class="hero-pattern py-5 text-center">
+  <div class="container col-lg-8">
+    <h1 class="fw-bold mb-3 lh-sm">
+      Reduce food waste, save<br class="d-none d-md-block">
+      money, and eat healthier
+    </h1>
+    <p class="lead mb-4">
+      Our app helps you track your budget, find recipes for leftover food,<br class="d-none d-md-block">
+      and produces clear recipes at your fingertips
+    </p>
+    <a href="#" class="btn btn-cta px-4">Get Started</a>
+  </div>
+</header>
+
+<!-- ░░░ KEY FEATURES  ░░░ -->
+<section id="keyFeatures" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold">Key Features</h2>
+    <p class="text-muted mb-5">
+      Our app is designed to make cooking easier and more efficient,
+      helping you reduce waste and save money
+    </p>
+
+    <div class="row g-4">
+      <!--  Card 1  -->
+      <div class="col-md-4">
+        <div class="p-4 feature-card rounded h-100">
+          <i class="bi bi-list-task fs-3 mb-3"></i>
+          <h5 class="fw-semibold">Smart Shopping Lists</h5>
+          <p class="mb-0">
+            Track your budget and reduce waste with our smart shopping list feature
+          </p>
+        </div>
+      </div>
+      <!--  Card 2  -->
+      <div class="col-md-4">
+        <div class="p-4 feature-card rounded h-100">
+          <i class="bi bi-search fs-3 mb-3"></i>
+          <h5 class="fw-semibold">Recipe Finder</h5>
+          <p class="mb-0">
+            Find recipes for leftover food in your kitchen, minimizing waste and maximizing creativity
+          </p>
+        </div>
+      </div>
+      <!--  Card 3  -->
+      <div class="col-md-4">
+        <div class="p-4 feature-card rounded h-100">
+          <i class="bi bi-stopwatch fs-3 mb-3"></i>
+          <h5 class="fw-semibold">Hands-free Cooking</h5>
+          <p class="mb-0">
+            Enjoy a stress-free cooking experience with built-in timers
+            and instructions all in one place
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ CTA  ░░░ -->
+<section class="cta-banner text-center py-5">
+  <div class="container col-lg-8">
+    <h3 class="fw-bold mb-3">
+      Ready to transform your<br class="d-none d-md-block"> cooking experience
+    </h3>
+    <p class="mb-4">
+      Download our app today and start saving money, reducing waste and eating healthier
+    </p>
+    <a href="#" class="btn btn-cta px-4">Download Now</a>
+  </div>
+</section>
+
+<!-- ░░░ FOOTER  ░░░ -->
+<!--  FOOTER  -->
+<footer style="background:var(--brand-green);">
+  <div class="container py-5">
+    <div class="row gy-4">
+      <!--  Logo + socials  -->
+      <div class="col-lg-3">
+        <a class="navbar-brand fw-bold" href="index.html"><img src="images/logo.png" alt="logo" width="50" height="50"> Forkcast</a>
+      </div>
+
+      <!--  Column 1  -->
+      <div class="col-6 col-lg-2">
+        <ul class="list-unstyled">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!--  Column 2  -->
+      <div class="col-6 col-lg-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--  Bootstrap JS  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
